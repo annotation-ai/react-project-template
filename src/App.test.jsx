@@ -1,0 +1,10 @@
+import { render } from '@testing-library/react';
+import App from './App';
+
+describe('App', () => {
+  context('when it loads', () => {
+    it('renders without crashing', () => {
+      render(<App />);
+    });
+  });
+});
